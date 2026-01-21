@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fama Seck's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Jaldi:wght@400;700&family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href = "/assets/css/animations.css" />
+    <link rel="stylesheet" href="/assets/css/modal.css" />
+  </head>
+  <body>
+
+    <div id="preloader">
+      <div class="animation-wrapper">
+        <img id="preloader-frame" alt="Loading animation" />
+      <p id="preloader-text"></p>
+      </div>
+    </div>
+
+    <section class="spotlight">
+      <div class="spotlight-backdrop"></div>
+      <div class="spotlight-intro-text-wrapper">
+        <div class="spotlight-intro-text"><p>Fama</p></div>
+        <div class="spotlight-intro-text"><p>Seck</p></div>
+      </div>
+
+      <div class="spotlight-bg-img">
+        <img src="/assets/images/cover_images/cover_project2.jpg" alt="" />
+      </div>
+
+      <div class="spotlight-titles-container">
+        <div class="spotlight-titles"></div>
+      </div>
+
+      <div class="spotlight-images"></div>
+
+      <div class="spotlight-header">
+        <p>PROJECTS</p>
+      </div>
+    </section>
+
+    <section class="outro">
+      <div class="outro-content">
+        <div class="img-container">
+          <div class="img-wrapper">
+          <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvddAhHVUo9q9VDYC1DJ5v7AGjFiCBj2p4aA&s">
+          </div>
+        </div>
+
+        <div class="about-content">
+          <h3>About Me</h3>
+          <span class = "divider"></span>
+          <div class="about-text">
+            <p>
+              Hi! I’m Fama Seck and I’m a current student at Brown University. I’ve always been passionate about design, architecture, and sustainability and have continued to explore it through a variety of means. As I embark on my academic journey, I hope to continue my pursuit for design and impact all that it reaches.
+              <br></br>
+              <br> In my spare time I enjoy cooking, playing soccer, reading, and, recently, sewing!</br>
+            </p>
+            
+            <div class="contact-information">
+              <ul>
+                <li><a href = "https://www.linkedin.com/in/famaseck/">LinkedIn</a></li>
+                <li><a href = "mailto:fama_seck@brown.edu">fama_seck@brown.edu</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <footer>
+       <div id = "footer-animation">
+        <img id = "footer-frame" alt = "Blinking Animation">
+       </div>
+    </footer>
+
+
+
+    <!-- MODAL ROOT -->
+    <div class="modal-window-wrapper hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-window-container" data-lenis-prevent>
+        <div class="modal-window-content"></div>
+      </div>
+    </div>
+
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="/gsap/SplitText.min.js"></script>
+    <script src="/gsap/MorphSVGPlugin.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+
+    <script src="/assets/js/animations.js"></script>
+    <script type = "module" src="/assets/js/main.js"></script>
+
+  </body>
+</html>
