@@ -41,13 +41,13 @@ const DUPLICATE_FRAMES = [
 
 // forward pass text
 const FORWARD_TEXT = [
-  { text: "Hi! Nice to see you here, let me clean up my desk a bit...", start: 10, end: 44 },
+  { text: "Hi! Nice to see you here!", start: 10, end: 44 },
 ];
 
 // reverse pass text
 const REVERSE_TEXT = [
-  { text: "I wasn't expecting company, sorry about that...", start: 52, end: 33 },
-  { text: "Ok All Done!", start: 20, end: 2 }
+  { text: "Let me clean my desk really quickly...", start: 52, end: 33 },
+  { text: "Ok All Done!", start: 20, end: 1 }
 ];
 
 
@@ -240,4 +240,5 @@ function preloadFooterImages(callback) {
 preloadFooterImages(() => {
   playFooterAnimation();
 });
+
 
