@@ -325,6 +325,10 @@ h1 {
     display: none;
   }
 
+  .spotlight-img {
+    display: none;
+  }
+
 }
 
 @media (max-width: 800px) {
