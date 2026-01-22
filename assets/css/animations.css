@@ -59,15 +59,15 @@ footer {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 10svh 0 10svh 0;
-  height: 50svh;
+  margin: 10vh 0 10vh 0;
+  height: 50vh;
 }
 
 #footer-animation {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40svh;
+  height: 40vh;
 }
 
 

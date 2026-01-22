@@ -1,7 +1,7 @@
 
 
 * {
-   margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "yomogi", creative;
@@ -11,7 +11,7 @@
 section {
   position: relative;
   width: 100vw;
-  min-height: 100svh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -36,7 +36,7 @@ h1 {
   pointer-events: none;
   transition: opacity 0.4s ease;
   z-index: 1;
-  height: 100svh
+  height: 100vh;
 }
 
 .spotlight-backdrop.active {
@@ -86,11 +86,11 @@ h1 {
   height: 100%;
   overflow: hidden;
   clip-path: polygon(
-    50svh 0px,
+    50vh 0px,
     0px 50%,
-    50svh 100%,
-    100% calc(100% + 100svh),
-    100% -100svh
+    50vh 100%,
+    100% calc(100% + 100vh),
+    100% -100vh
   );
   --before-opacity: 0;
   --after-opacity: 0;
@@ -101,7 +101,7 @@ h1 {
 .spotlight-titles-container::after {
   content: "";
   position: absolute;
-  width: 100svh;
+  width: 100vh;
   height: 2.5px;
   background: #fff;
   pointer-events: none;
@@ -200,7 +200,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
 }
 
 .outro-content {
@@ -214,7 +213,7 @@ h1 {
 
 .img-container {
   width: calc(50svw - 30px);
-  height: 90svh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
