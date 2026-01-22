@@ -94,7 +94,7 @@ h1 {
   );
   --before-opacity: 0;
   --after-opacity: 0;
-  z-index: 10;
+  z-index: 30;
 }
 
 .spotlight-titles-container::before,
@@ -132,7 +132,7 @@ h1 {
   flex-direction: column;
   gap: 5rem;
   transform: translateY(100%);
-  z-index: 20;
+  z-index: 30;
 }
 
 .spotlight-titles h1 {
