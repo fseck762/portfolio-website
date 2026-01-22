@@ -325,8 +325,9 @@ h1 {
     display: none;
   }
 
+  .spotlight-images,
   .spotlight-img {
-    display: none;
+    display: none !important;
   }
 
 }
