@@ -150,7 +150,7 @@ h1 {
   width: 50%;
   min-width: 300px;
   height: 100%;
-  z-index: 10;
+  z-index: 5;
   pointer-events: none;
 }
 
@@ -160,6 +160,7 @@ h1 {
   height: 150px;
   will-change: transform;
   pointer-events: none;
+  z-index: 5
 }
 
 .spotlight-header {
@@ -172,7 +173,7 @@ h1 {
   transition: opacity 0.3s ease;
   z-index: 2;
   opacity: 0;
-  z-index: 10;
+  z-index: 20;
 }
 
 .spotlight-tile {
