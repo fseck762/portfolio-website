@@ -221,7 +221,7 @@ h1 {
 .img-wrapper {
   width: 70%;
   height: 100%;
-  background: url("assets/images/about-img.jpg");
+  background: url("/portfolio-website/assets/images/about-img.jpg");
   background-size: cover;
   border: 4.5px solid #000;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
