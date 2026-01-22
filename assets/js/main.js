@@ -251,6 +251,22 @@ ScrollTrigger.create({
   },
 });
 
+// for small-screens
+function hideImagesOnMobile() {
+  if (window.innerWidth <= 1000) {
+    document.querySelectorAll('.spotlight-images, .spotlight-img').forEach(img => {
+      img.style.display = 'none';
+    });
+  } else {
+    document.querySelectorAll('.spotlight-images, .spotlight-img').forEach(img => {
+      img.style.display = 'block';
+    });
+  }
+}
+
+// Run on load and resize
+hideImagesOnMobile();
+window.addEventListener('resize', hideImagesOnMobile);
 
 
 
