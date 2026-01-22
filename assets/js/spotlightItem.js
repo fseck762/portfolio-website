@@ -6,8 +6,8 @@ export const spotlightItems = [
     year: "Spring 2025",
     tag: "Architecture",
     group: "Built Environment",
-    img: "./../assets/images/cover_images/cover_project2.jpg",
-    modalImg: "./../assets/images/modal_images/modal_project2.png",
+    img: "assets/images/cover_images/cover_project2.jpg",
+    modalImg: "assets/images/modal_images/modal_project2.png",
     tools: {
       available: true,
       list: [
@@ -28,8 +28,8 @@ export const spotlightItems = [
     year: "Fall 2025",
     tag: "Infrastructure",
     group: "Built Environment",
-    img: "./../assets/images/cover_images/cover_airport_reprt.png",
-    modalImg: "./../assets/images/modal_images/modal_airport.png",
+    img: "assets/images/cover_images/cover_airport_reprt.png",
+    modalImg: "assets/images/modal_images/modal_airport.png",
     tools: {
       available: false,
       list: []
@@ -47,8 +47,8 @@ export const spotlightItems = [
     year: "Fall 2025",
     tag: "Infrastrucuture",
     group: "Built Environment",
-    img: "./../assets/images/cover_images/cover_envelope.png",
-    modalImg: "./../assets/images/modal_images/modal_envelope.png",
+    img: "assets/images/cover_images/cover_envelope.png",
+    modalImg: "assets/images/modal_images/modal_envelope.png",
     tools: {
       available: true,
       list: [
@@ -69,8 +69,8 @@ export const spotlightItems = [
     year: "January 2026",
     tag: "Policy",
     group: "Research + Publications",
-    img: "./../assets/images/cover_images/cover_ri.jpeg",
-    modalImg: "./../assets/images/modal_images/modal_ri.png",
+    img: "assets/images/cover_images/cover_ri.jpeg",
+    modalImg: "assets/images/modal_images/modal_ri.png",
     tools: {
       available: false,
       list: []
@@ -88,8 +88,8 @@ export const spotlightItems = [
     year: "Summer 2025",
     tag: "Policy",
     group: "engineering + data",
-    img: "./../assets/images/cover_images/cover_testimony.jpg",
-    modalImg: "./../assets/images/modal_images/modal_testimony.png", //need to rename image
+    img: "assets/images/cover_images/cover_testimony.jpg",
+    modalImg: "assets/images/modal_images/modal_testimony.png", //need to rename image
     tools: {
       available: true,
       list: [
@@ -110,8 +110,8 @@ export const spotlightItems = [
     year: "Fall 2025",
     tag: "Policy",
     group: "Research + publications",
-    img: "./../assets/images/cover_images/cover_constructing_climate.webp",
-    modalImg: "./../assets/images/modal_images/modal_construct.png",
+    img: "assets/images/cover_images/cover_constructing_climate.webp",
+    modalImg: "assets/images/modal_images/modal_construct.png",
     tools: {
       available: true,
       list: [
@@ -132,8 +132,8 @@ export const spotlightItems = [
     year: "2023-2024",
     tag: "Engineering",
     group: "Engineering",
-    img: "./../assets/images/modal_images/modal_walter.png",
-    modalImg: "./../assets/images/cover_images/cover_walter.png",
+    img: "assets/images/modal_images/modal_walter.png",
+    modalImg: "assets/images/cover_images/cover_walter.png",
     tools: {
       available: false,
       list: [
@@ -153,8 +153,8 @@ export const spotlightItems = [
     year: "Spring 2025",
     tag: "Architecture",
     group: "Built Environment",
-    img: "./../assets/images/cover_images/cover_project1b.jpg",
-    modalImg: "./../assets/images/modal_images/modal_project1b.jpg",
+    img: "assets/images/cover_images/cover_project1b.jpg",
+    modalImg: "assets/images/modal_images/modal_project1b.jpg",
     tools: {
       available: false,
       list: [
@@ -174,8 +174,8 @@ export const spotlightItems = [
     year: "Summer 2023",
     tag: "Architecture",
     group: "Built Environment",
-    img: "./../assets/images/cover_images/cover_mites.jpg",
-    modalImg: "./../assets/images/modal_images/modal_mites.jpg",
+    img: "assets/images/cover_images/cover_mites.jpg",
+    modalImg: "assets/images/modal_images/modal_mites.jpg",
     tools: {
       available: true,
       list: [

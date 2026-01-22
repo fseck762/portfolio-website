@@ -4,7 +4,7 @@
 
 
 
-const FRAME_PATH = "./assets/animationFrames/preloaderAnimation";
+const FRAME_PATH = "assets/animationFrames/preloaderAnimation";
 const FRAME_EXT = "png";
 
 // animation frames 
@@ -178,7 +178,7 @@ preloadImages(() => {
 
 // FOOTER
 
-const FOOTER_FRAME_PATH = "./assets/animationFrames/blinkingAnimation";
+const FOOTER_FRAME_PATH = "assets/animationFrames/blinkingAnimation";
 const FOOTER_FRAME_EXT = "png";
 
 const FOOTER_FRAME_COUNT = 3; // only 3 frames
