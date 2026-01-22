@@ -16,7 +16,7 @@ const FRAME_DURATION = 1000 / FPS;
 
 // delay timings (ms)
 const START_DELAY = 400;     // before animation starts
-const END_DELAY = 3200;       // after animation finishes
+const END_DELAY = 1200;       // after animation finishes
 const FADE_DURATION = 600;   // preloader fade out
 
 // frames that should "hold" longer
