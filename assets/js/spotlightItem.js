@@ -132,8 +132,8 @@ export const spotlightItems = [
     year: "2023-2024",
     tag: "Engineering",
     group: "Engineering",
-    img: "../images/modal_images/modal_walter.png",
-    modalImg: "../images/cover_images/cover_walter.png",
+    img: "assets/images/modal_images/modal_walter.png",
+    modalImg: "assets/images/cover_images/cover_walter.png",
     tools: {
       available: false,
       list: [
